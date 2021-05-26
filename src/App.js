@@ -31,7 +31,7 @@ const App = (props) => {
         dropdown: [2],
       })
     })
-
+ 
     const query = `mutation create_item ($boardId: Int!, $itemName: String!, $columnValues: JSON!) { 
       create_item (
         board_id: $boardId,
